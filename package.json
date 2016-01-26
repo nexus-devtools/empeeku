@@ -1,0 +1,22 @@
+{
+  "name": "mpyqjs",
+  "version": "1.0.0",
+  "keywords": [
+    "mpq",
+    "blizzard",
+    "archive"
+  ],
+  "description": "Javascript port of mpyq python library for reading MPQ archives.",
+  "author": "Farof",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Farof/mpyqjs.git"
+  },
+  "homepage": "https://github.com/Farof/mpyqjs",
+  "dependencies": {
+    "long": "^3.0.3",
+    "seek-bzip": "^1.0.5",
+    "yargs": "^3.32.0"
+  }
+}
