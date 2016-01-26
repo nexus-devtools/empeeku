@@ -29,7 +29,7 @@ It is a straightforward port with the same functionnalities and limitations. See
 
 ## Port status
 
-This is a direct port with nothing fancy a little Javascript adjustments or optimizations.
+This is a direct port with nothing fancy and little Javascript adjustments or optimizations.
 
 While this port has been successfully used to perform the operations provided and analyze replay files of Heroes of the Storm, not all codepaths have been tested and bugs may arise.
 
