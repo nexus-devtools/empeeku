@@ -4,6 +4,10 @@ mpyq.js is a port of the [mpyq Python library](https://github.com/eagleflo/mpyq)
 
 It is a straightforward port with the same functionnalities and limitations. See the [original Readme](https://github.com/eagleflo/mpyq) for details.
 
+## Installation
+
+    npm install -S mpyqjs
+
 ## Usage
 
 ### As a library
