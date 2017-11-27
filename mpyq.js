@@ -210,8 +210,8 @@ MPQArchive.prototype.readFile = function(filename, forceDecompress) {
       }
 
       var positions = [], i;
-      for (i = 0; i < (sectors + i); i += 1) {
-        positions[i] = fileData.readUInt32LE(i * 4);
+      for (i = 0; i < (sectors + 1); i += 1) {
+        positions[i] = fileData.readUInt32LE(4*i);
       }
       
       var ln = positions.length - (crc ? 2 : 1);
