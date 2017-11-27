@@ -196,7 +196,6 @@ MPQArchive.prototype.readFile = function(filename, forceDecompress) {
     if (!(blockEntry.flags & MPQ_FILE_SINGLE_UNIT)) {
       // File consists of many sectors. They all need to be
       // decompressed separately and united.
-      throw new Error('Not yet implemented');
 
       var sectorSize = 512 << this.header.sectorSizeShift;
       var sectors = Math.trunc(blockEntry.size / sectorSize) + 1;
