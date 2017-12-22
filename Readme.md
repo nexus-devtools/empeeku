@@ -1,18 +1,18 @@
 # mpyq.js
 
-mpyq.js is a port of the [mpyq Python library](https://github.com/eagleflo/mpyq) for reading MPQ archives used in many of Blizzard's games.
+This is a fork of [mpyq.js](https://github.com/Farof/mpyqjs), which is a port of the [mpyq Python library](https://github.com/eagleflo/mpyq) for reading MPQ archives used in many of Blizzard's games. This fork fixes a major bug related to opening multipart archives. 
 
 It is a straightforward port with the same functionnalities and limitations. See the [original Readme](https://github.com/eagleflo/mpyq) for details.
 
 ## Installation
 
-    npm install -S mpyqjs
+    npm install -S empeeku
 
 ## Usage
 
 ### As a library
 
-    const mpq = require('mpyq');
+    const mpq = require('empeeku');
     const MPQArchive = mpq.MPQArchive;
 
 ### From the command line
@@ -39,7 +39,9 @@ While this port has been successfully used to perform the operations provided an
 
 ## License
 
-ISC License (ISC) - Copyright (c) 2016, Mathieu Merdy
+empeeku ISC License (ISC) - Copyright (c) 2017, Andy Baird
+
+mpyq.js ISC License (ISC) - Copyright (c) 2016, Mathieu Merdy
 
 ---
 

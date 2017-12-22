@@ -1,19 +1,21 @@
 {
-  "name": "mpyqjs",
-  "version": "1.0.1",
+  "name": "empeeku",
+  "version": "1.0.2",
   "keywords": [
     "mpq",
     "blizzard",
-    "archive"
+    "archive",
+    "starcraft",
+    "warcraft"
   ],
   "description": "Javascript port of mpyq python library for reading MPQ archives.",
-  "author": "Farof",
+  "author": "ajbdev",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Farof/mpyqjs.git"
+    "url": "https://github.com/nexus-devtools/empeekujs.git"
   },
-  "homepage": "https://github.com/Farof/mpyqjs",
+  "homepage": "https://github.com/nexus-devtools/empeekujs",
   "dependencies": {
     "long": "^3.0.3",
     "seek-bzip": "^1.0.5",
