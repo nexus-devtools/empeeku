@@ -1,6 +1,7 @@
 {
   "name": "empeeku",
   "version": "1.0.2",
+  "main": "mpyq.js",
   "keywords": [
     "mpq",
     "blizzard",
